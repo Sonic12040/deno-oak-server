@@ -37,3 +37,7 @@ Routes belong in routes.ts in the api folder. An example route has been provided
 ## deps.ts and dev_deps.ts
 
 Dependencies for the regular project belong in deps.ts. Dependencies used only during development (such as testing libraries) belong in dev_deps.ts.
+
+## http.test.ts
+
+Example test of the /route data and response returning correctly. If you don't correctly close the server with AbortController, your tests will hang.
