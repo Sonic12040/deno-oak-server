@@ -40,7 +40,7 @@ Dependencies for the regular project belong in deps.ts. Dependencies used only d
 
 ## http.test.ts
 
-Example test of the /route data and response returning correctly. If you don't correctly close the server with AbortController, your tests will hang.
+Example test of the /route data and response returning correctly. If you don't correctly close the server with AbortController, your tests will hang. To run the test here, which spins up and accesses the network, you'll need to run `deno test --allow-net`.
 
 ## Recommended Resources
 
