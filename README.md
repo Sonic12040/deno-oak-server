@@ -41,3 +41,9 @@ Dependencies for the regular project belong in deps.ts. Dependencies used only d
 ## http.test.ts
 
 Example test of the /route data and response returning correctly. If you don't correctly close the server with AbortController, your tests will hang.
+
+## Recommended Resources
+
+- [Level Up Tutorials](https://www.leveluptutorials.com/tutorials/deno-101-for-web-developers) - The project structure here was learned through this tutorial, and there are many more tutorials on Level Up Tuts. Highly recommend purchasing a Pro subscription!
+- [Oak Documentation](https://deno.land/x/oak@v6.4.1) - The documentation for oak includes middleware such as the logger and timer added to this repository. Closing the server was particularly helpful in writing the server test, and it includes middleware for logger and timing.
+- [Deno Documentation](https://deno.land/manual@v1.6.2/examples/manage_dependencies) - The deps.ts and dev_deps.ts approach comes from this section.
