@@ -18,9 +18,9 @@ Likewise for Denon, see [here](https://github.com/denoland/deno/issues/6239#issu
 
 ## Starting the application
 
-Start the application from the root directory with Deno using `deno run --allow-net http.ts`
+Start the application from the root directory with Deno using `deno run --allow-net server.ts`
 
-Start the application from the root directory with Denon using `denon run --allow-net http.ts`
+Start the application from the root directory with Denon using `denon run --allow-net server.ts`
 
 ## Adding methods
 
@@ -38,7 +38,7 @@ Routes belong in routes.ts in the api folder. An example route has been provided
 
 Dependencies for the regular project belong in deps.ts. Dependencies used only during development (such as testing libraries) belong in dev_deps.ts.
 
-## http.test.ts
+## server.test.ts
 
 Example test of the /route data and response returning correctly. If you don't correctly close the server with AbortController, your tests will hang. To run the test here, which spins up and accesses the network, you'll need to run `deno test --allow-net`.
 
